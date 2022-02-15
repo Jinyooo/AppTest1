@@ -1,0 +1,68 @@
+header {
+    background-color: rgb(255, 136, 0);
+    text-align: center;
+    height: 100px;
+    padding: 10px;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    list-style-type: none;
+    padding: 5px;
+
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+.title {
+    display: block;
+    padding: 5px;
+    
+}
+
+.item {
+    
+    background-color: beige;
+    height: 300px;
+    border-radius: 10px;
+    margin: 10px;
+
+}
+
+hr {
+    border: 1px solid brown;
+}
+h3 {
+    text-align: center;
+    
+}
+p { margin: 10px;}
+
+@media screen and (min-width: 600px) {
+    .title {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        padding: 5px;
+        justify-content: space-around;
+        align-items: stretch;
+    }
+    .item {
+        display: inline-block;
+        background-color: beige;
+        height: 300px;
+        border-radius: 10px;
+        margin: 10px;
+    
+    }
+}
+
+
+/* 공지사항.html 의 CSS 입니다*/
+.notice {
+    text-align: center;
+    border: 1px solid black;
+    height: 300px;
+}
+
